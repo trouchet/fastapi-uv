@@ -48,7 +48,7 @@ Expected response:
 
 <details>
 <summary>
-
+Click to unfold
 </summary>
 
 ### `main.py`
