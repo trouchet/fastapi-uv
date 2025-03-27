@@ -103,11 +103,5 @@ services:
 - Ensure **Docker** and **Docker Compose** are installed on your system.
 - Modify the `Dockerfile` as needed.
 
-## 🛠️ Troubleshooting
-
-### "ModuleNotFoundError: No module named 'uv'"
-
-- Rebuild the container: `docker-compose up --build` or `docker build -t fastapi-uv .`
-
 ## 🏆 Contributing
 Feel free to open issues or contribute improvements to this project!
