@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 async def read_root():
-    return {"message": "uv is installed and FastAPI is running!"}
+    return {"message": "FastAPI is running!"}

@@ -13,9 +13,6 @@ COPY . .
 # Install FastAPI and other dependencies
 RUN uv sync
 
-# Copy app files
-COPY main.py .
-
 # Expose FastAPI default port
 EXPOSE 8000
 
